@@ -14,7 +14,9 @@ function fromUpTo(min, max) {
 };
 
 var numeroUtente = prompt('Dammi un mumero da 1 a 100');
-
-//if ( i = 0; i!=numeroUtente; ) {
-//  alert("Errore! Riprova!")
-//}
+if(numeroUtente != numeroPc) {
+  alert("You loose!")
+} else if(numeroUtente === numeroPc) {
+  alert("You win!!")
+} else
+alert("try again!");
